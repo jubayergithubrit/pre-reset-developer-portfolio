@@ -17,7 +17,7 @@ h3 {
 
 .top-banner {
     display: flex;
-    background-image: url(images/top-banner.png);
+    background-image: url('images/top-banner.png');
     background-repeat: no-repeat;
 }
 
@@ -31,18 +31,70 @@ h3 {
 }
 
 .half-width {
-    padding: 10px;
+    margin: 50px;
+    padding: 20px;
     font-size: 20px;
     width: 50%;
 
+}
 
+.half-width p {
+    font-size: 25px;
 }
 
 .half-width img {
     width: 70%;
 }
 
+.flexible-container {
+    margin-bottom: 150px;
+}
+
 /* bottom banner */
 .bottom-banner {
     display: flex;
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* experience area */
+.experience-area {
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-area h2 {
+    font-size: 40px;
+}
+
+.experience-item {
+    text-align: justify;
+    font-size: 25px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 15px 15px 30px gray;
+    border-radius: 8px;
+}
+
+#full-stack-developer {
+    border-left: 10px solid tomato;
+}
+
+#noob-developer {
+    border-left: 10px solid blue;
+}
+
+footer p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
 }
